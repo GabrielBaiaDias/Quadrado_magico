@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    user-select: none;
+}
+
+header {
+    background-color: #65dff4;
+    font-size: 2.5em;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Sigmar';
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: #c6f5ff;
+}
+
+table {
+    width: 430px;
+    height: 430px;
+    border-collapse: collapse;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td {
+    background-color: #5fd8f0;
+    margin: 2px;
+    border: 2px solid #c6f5ff;
+    border-radius: 15px;
+    font-family: 'Sigmar';
+    font-size: 3em;
+    color: white;
+
+    text-align: center;
+}
+
+#divBtn {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btnMod {
+    background-color: transparent;
+    border: 2px solid #4bcfed;
+    color: #4bcfed;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 8px;
+    font-size: 1.2em;
+    border-radius: 5px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+.btnMod:Hover {
+    transition: .5s;
+    background-color: #4bcfed;
+    border-color: transparent;
+    color: rgb(212, 247, 255);
+}
+
+.numResposta {
+    width: 100%;
+    height: 100%;
+    caret-color: transparent;
+    font-family: 'Sigmar';
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    /* background-color: blue; */
+    cursor: pointer;
+}
+
+.numResposta:focus {
+    background-color: #4bcfed;
+    border-radius: 15px;
+}
+
+.numResposta:hover {
+    background-color: #65dff4;
+    border-radius: 15px;
+}
+
+.linha {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #52cfe4;
+    margin-top: 8px;
+    transform: translateY(-5px);
+}
+.placarIndividual {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-size: 1.7em;
+}
+#placar {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.numPlacar {
+    color: #52cfe4;
+    text-align: center;
+    font-family: 'Dosis';
+    font-weight: bold;
+}

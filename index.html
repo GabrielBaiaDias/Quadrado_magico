@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,300&family=Dosis:wght@300&family=Sigmar&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        Quadrado mágico
+    </header>
+    <div id="placar" class="placarIndividual">
+        <span style="font-family: 'Sigmar';font-size: 1.3em;color: #52cfe4;">P</span>
+        <span class="linha"></span>
+        <span class="numPlacar" id="numPlacarId">0</span>
+    </div>
+    <div id="fundo">
+        <table id="quadrado">
+            
+        </table>
+    </div>
+    <div id="divBtn">
+        <input class="btnMod" onclick="Atualizar()" type="button" value="Atualizar">
+        <input class="btnMod" onclick="Resetar()" type="button" value="Resetar">
+    </div>
+    
+</body>
+
+</html>
+<script src="scrypt.js"></script>
